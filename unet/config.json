@@ -1,0 +1,14 @@
+{
+    "epochs": 100,
+    "batch_size": 2,
+    "img_resolution": 448,
+    "learning_rate": 1e-4,
+    "num_workers": 4,
+    "train_dir": "/app/lanesegmentation_data/train/",
+    "test_dir": "/app/lanesegmentation_data/test/",
+    "save_dir": "/app/unet/weights/",
+    "prediction_dir": "/app/unet/predictions/",
+    "log_dir": "/app/unet/log.txt",
+    "positive_threshold": 0.5,
+    "mask_color": [248, 158, 134]
+}
